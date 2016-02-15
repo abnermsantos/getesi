@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Forn_Gastos" msprop:Generator_TableClassName="Forn_GastosDataTable" msprop:Generator_TableVarName="tableForn_Gastos" msprop:Generator_TablePropName="Forn_Gastos" msprop:Generator_RowDeletingName="Forn_GastosRowDeleting" msprop:Generator_UserTableName="Forn_Gastos" msprop:Generator_RowChangingName="Forn_GastosRowChanging" msprop:Generator_RowEvHandlerName="Forn_GastosRowChangeEventHandler" msprop:Generator_RowDeletedName="Forn_GastosRowDeleted" msprop:Generator_RowEvArgName="Forn_GastosRowChangeEvent" msprop:Generator_RowChangedName="Forn_GastosRowChanged" msprop:Generator_RowClassName="Forn_GastosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fornecedor" msprop:Generator_ColumnVarNameInTable="columnFornecedor" msprop:Generator_ColumnPropNameInRow="Fornecedor" msprop:Generator_ColumnPropNameInTable="FornecedorColumn" msprop:Generator_UserColumnName="Fornecedor" type="xs:string" minOccurs="0" />
+              <xs:element name="Valor" msprop:Generator_ColumnVarNameInTable="columnValor" msprop:Generator_ColumnPropNameInRow="Valor" msprop:Generator_ColumnPropNameInTable="ValorColumn" msprop:Generator_UserColumnName="Valor" type="xs:string" minOccurs="0" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Viagem_Gastos" msprop:Generator_TableClassName="Viagem_GastosDataTable" msprop:Generator_TableVarName="tableViagem_Gastos" msprop:Generator_TablePropName="Viagem_Gastos" msprop:Generator_RowDeletingName="Viagem_GastosRowDeleting" msprop:Generator_UserTableName="Viagem_Gastos" msprop:Generator_RowChangingName="Viagem_GastosRowChanging" msprop:Generator_RowEvHandlerName="Viagem_GastosRowChangeEventHandler" msprop:Generator_RowDeletedName="Viagem_GastosRowDeleted" msprop:Generator_RowEvArgName="Viagem_GastosRowChangeEvent" msprop:Generator_RowChangedName="Viagem_GastosRowChanged" msprop:Generator_RowClassName="Viagem_GastosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:string" minOccurs="0" />
+              <xs:element name="OP" msprop:Generator_ColumnVarNameInTable="columnOP" msprop:Generator_ColumnPropNameInRow="OP" msprop:Generator_ColumnPropNameInTable="OPColumn" msprop:Generator_UserColumnName="OP" type="xs:string" minOccurs="0" />
+              <xs:element name="Veiculo" msprop:Generator_ColumnVarNameInTable="columnVeiculo" msprop:Generator_ColumnPropNameInRow="Veiculo" msprop:Generator_ColumnPropNameInTable="VeiculoColumn" msprop:Generator_UserColumnName="Veiculo" type="xs:string" minOccurs="0" />
+              <xs:element name="Gastos" msprop:Generator_ColumnVarNameInTable="columnGastos" msprop:Generator_ColumnPropNameInRow="Gastos" msprop:Generator_ColumnPropNameInTable="GastosColumn" msprop:Generator_UserColumnName="Gastos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Cliente_OP" msprop:Generator_TableClassName="Cliente_OPDataTable" msprop:Generator_TableVarName="tableCliente_OP" msprop:Generator_TablePropName="Cliente_OP" msprop:Generator_RowDeletingName="Cliente_OPRowDeleting" msprop:Generator_UserTableName="Cliente_OP" msprop:Generator_RowChangingName="Cliente_OPRowChanging" msprop:Generator_RowEvHandlerName="Cliente_OPRowChangeEventHandler" msprop:Generator_RowDeletedName="Cliente_OPRowDeleted" msprop:Generator_RowEvArgName="Cliente_OPRowChangeEvent" msprop:Generator_RowChangedName="Cliente_OPRowChanged" msprop:Generator_RowClassName="Cliente_OPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cliente" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="OP" msprop:Generator_ColumnVarNameInTable="columnOP" msprop:Generator_ColumnPropNameInRow="OP" msprop:Generator_ColumnPropNameInTable="OPColumn" msprop:Generator_UserColumnName="OP" type="xs:string" minOccurs="0" />
+              <xs:element name="inicio" msprop:Generator_ColumnVarNameInTable="columninicio" msprop:Generator_ColumnPropNameInRow="inicio" msprop:Generator_ColumnPropNameInTable="inicioColumn" msprop:Generator_UserColumnName="inicio" type="xs:string" minOccurs="0" />
+              <xs:element name="fim" msprop:Generator_ColumnVarNameInTable="columnfim" msprop:Generator_ColumnPropNameInRow="fim" msprop:Generator_ColumnPropNameInTable="fimColumn" msprop:Generator_UserColumnName="fim" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Fluxo_Bancario" msprop:Generator_TableClassName="Fluxo_BancarioDataTable" msprop:Generator_TableVarName="tableFluxo_Bancario" msprop:Generator_TablePropName="Fluxo_Bancario" msprop:Generator_RowDeletingName="Fluxo_BancarioRowDeleting" msprop:Generator_UserTableName="Fluxo_Bancario" msprop:Generator_RowChangingName="Fluxo_BancarioRowChanging" msprop:Generator_RowEvHandlerName="Fluxo_BancarioRowChangeEventHandler" msprop:Generator_RowDeletedName="Fluxo_BancarioRowDeleted" msprop:Generator_RowEvArgName="Fluxo_BancarioRowChangeEvent" msprop:Generator_RowChangedName="Fluxo_BancarioRowChanged" msprop:Generator_RowClassName="Fluxo_BancarioRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="data" msprop:Generator_ColumnVarNameInTable="columndata" msprop:Generator_ColumnPropNameInRow="data" msprop:Generator_ColumnPropNameInTable="dataColumn" msprop:Generator_UserColumnName="data" type="xs:string" minOccurs="0" />
+              <xs:element name="pagar" msprop:Generator_ColumnVarNameInTable="columnpagar" msprop:Generator_ColumnPropNameInRow="pagar" msprop:Generator_ColumnPropNameInTable="pagarColumn" msprop:Generator_UserColumnName="pagar" type="xs:string" minOccurs="0" />
+              <xs:element name="receber" msprop:Generator_ColumnVarNameInTable="columnreceber" msprop:Generator_ColumnPropNameInRow="receber" msprop:Generator_ColumnPropNameInTable="receberColumn" msprop:Generator_UserColumnName="receber" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
